@@ -1,1 +1,0 @@
-# jd-shopping-website-mock
