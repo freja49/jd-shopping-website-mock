@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京东-多快好省</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+        window.onload = function () {
+            var img = document.getElementById("img");
+            imgArr = ["images/01.png", "images/02.png", "images/03.png", "images/04.png"];
+            var index = 0;
+            btn02.onclick = function () {
+                index++;
+                if (index >= imgArr.length) {
+                    index = 0;
+                }
+                img.src = imgArr[index];
+            }
+            btn01.onclick = function () {
+                index--;
+                if (index < 0) {
+                    index = (imgArr.length) - 1;
+                }
+                img.src = imgArr[index];
+            }
+            setInterval(function () {
+                index++;
+                if (index >= imgArr.length) {
+                    index = 0;
+                }
+                img.src = imgArr[index];
+            }, 3000)
+        }
+    </script>
+</head>
+
+<body>
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl"><a href="x"><i class="fa fa-camera-retro"></i> hong kong</a></div>
+            <ul class="fr">
+                <li><a href="x">你好，請登錄</a></li>
+                <li><a href="x">免费注册</a></li>
+                <li class="spacer"></li>
+                <li><a href="x">我的订单</a></li>
+                <li class="spacer"></li>
+                <li><a href="x">我的京东</a></li>
+                <li class="spacer"></li>
+                <li><a href="x">京东会员</a></li>
+                <li class="spacer"></li>
+                <li><a href="x">企业采购</a></li>
+                <li class="spacer"></li>
+                <li><a href="x">客户服务</a></li>
+                <li class="spacer"></li>
+                <li><a href="x">网站导航</a></li>
+                <li class="spacer"></li>
+                <li><a href="x">手机京东</a></li>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="headered w">
+            <div id="logo">
+                <h1><a href="index.html">
+                        <img src="images/logo.png">
+                    </a>
+                </h1>
+                <h2>京東 多快好省</h2>
+            </div>
+            <div class="search">
+
+                <div class="form">
+                    <input type="text" placeholder="iphone6s">
+                    <span><a href="x"><i class="fa fa-camera-retro" style="font-size: 18px;"></i></a></span>
+                    <button><a href="x"><i class="fa fa-search"
+                                style="font-size: 18px;color:aliceblue"></i></a></button>
+                </div>
+                <div class="settleup">
+                    <i class="fa fa-shopping-cart" style="font-size: 18px;"></i>
+                    <i class="count">15</i>
+                    <a href="x">我的购物车</a>
+                </div>
+                <div class="qrcode">
+                    <img src="images/star.png">
+
+                </div>
+            </div>
+            <ul class="hotwords">
+                <li><a href="x" class="style-red">品质男人节</a></li>
+                <li><a href="x">199减30</a></li>
+                <li><a href="x">一元速抢</a></li>
+                <li><a href="x">运动户外</a></li>
+                <li><a href="x">爆款电视</a></li>
+                <li><a href="x">热卖家具</a></li>
+                <li><a href="x">合约立减</a></li>
+            </ul>
+            <div class="nav">
+                <ul>
+                    <li><a href="x">秒殺</a></li>
+                    <li><a href="x">優惠券</a></li>
+                    <li><a href="x">plus會員</a></li>
+                    <li><a href="x">品牌閃購</a></li>
+                    <li><a href="x">拍賣</a></li>
+                    <li><a href="x">京東家電</a></li>
+                    <li><a href="x">京东生鲜</a></li>
+                    <li><a href="x">京东国际</a></li>
+                    <li><a href="x">京东金融</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="fs w clearfix">
+        <div class="fs01">
+            <ul>
+                <li class="menu_item"><a href=""> 家用电器</a><i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i>
+                </li>
+
+                <li class="menu_item"> <a href="list.html">手机 数码 通信</a>
+                    <i class="fa fa-angle-right" style="font-size: 15px;color:#fff"></i></li>
+                <li class="menu_item"><a href="#">电脑、办公</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i></li>
+                <li class="menu_item"><a href="#">家居、家具、家装、厨具</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">男装、女装、童装、内衣</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">个户化妆、清洁用品、宠物</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">鞋靴、箱包、珠宝、奢侈品</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">运动户外、钟表</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">汽车、汽车用品</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">母婴、玩具乐器</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">食品、酒类、生鲜、特产</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">医药保健</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">图书、音像、电子书</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i></li>
+                <li class="menu_item"><a href="#">彩票、旅行、充值、票务</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">理财、众筹、白条、保险</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">理财、众筹、白条、保险</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">理财、众筹、白条、保险</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+                <li class="menu_item"><a href="#">理财、众筹、白条、保险</a> <i class="fa fa-angle-right"
+                        style="font-size: 15px;color:#fff"></i> </li>
+            </ul>
+        </div>
+        <div class="fs02">
+            <img id="img" src="images/01.png">
+            <button id="btn01"><i class="fa fa-angle-left"></i></button>
+            <button id="btn02"><i class="fa fa-angle-right"></i></button>
+        </div>
+
+
+        <div class="fs03">
+            <ul>
+                <li><a href="x">
+                        <img src="images/recom1.png">
+                    </a>
+                </li>
+                <li><a href="x">
+                        <img src="images/recom1.png">
+                    </a>
+                </li>
+                <li><a href="x">
+                        <img src="images/recom1.png">
+                    </a>
+                </li>
+        </div>
+
+        </ul>
+        <div class="fs04">
+            <div class="user">
+                <div class="user-info">
+                    <div class="avatar">
+                        <a href="x">
+                            <img src="images/avatar.png">
+                        </a>
+                    </div>
+                    <div class="login">
+                        <p>hi～欢迎光临京东</p>
+                        <a href="x">登录</a>
+                        <a href="x">注册</a>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="btn01">新人福利</button>
+                    <button class="btn02">plus会员</button>
+                </div>
+            </div>
+            <div class="line">
+            </div>
+            <div class="news">
+                <div class="news-hd">
+                    <h2>京东快报</h2><a href="x">更多<i class="fa fa-angle-right"></i></a>
+                </div>
+                <ul class="news-list">
+                    <li class="news-item"><a href="x"><span>热议</span>圆漾珍珠耳钉，点缀在耳间</a></li>
+                    <li class="news-item"><a href="x"><span>热议</span>圆漾珍珠耳钉，点缀在耳间</a></li>
+                    <li class="news-item"><a href="x"><span>热议</span>圆漾珍珠耳钉，点缀在耳间</a></li>
+                    <li class="news-item"><a href="x"><span>热议</span>圆漾珍珠耳钉，点缀在耳间</a></li>
+
+                </ul>
+            </div>
+            <div class="line"></div>
+            <ul class="service">
+                <li><a href="x">
+                        <i class="fa fa-plane" style="color:green;"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-plane" style="color:aqua"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-plane"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-plane"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-plane"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-plane"></i>
+                        <p>机票</p>
+                <li><a href="x">
+                        <i class="fa fa-plane"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-plane"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-book" style="color:pink"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-taxi"></i>
+                        <p>机票</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-bank"></i>
+                        <p>理财</p>
+                    </a></li>
+                <li><a href="x">
+                        <i class="fa fa-building"></i>
+                        <p>机票</p>
+                    </a></li>
+
+
+            </ul>
+        </div>
+    </div>
+    <div class="w">
+        <div class="recom clearfix">
+            <div class="recom_hd">
+                <a href="x">京东秒杀</a>
+            </div>
+            <div class="recom_bd">
+                <ul>
+                    <li><a href="x"><img src="images/miaosha01.png"></a></li>
+                    <li><a href="x"><img src="images/miaosha01.png"></a></li>
+                    <li><a href="x"><img src="images/miaosha01.png"></a></li>
+                    <li><a href="x"><img src="images/miaosha01.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="tejia clearfix">
+            <div class="col">
+                <div class="tejia-hd">
+                    <div class="tejia-hd01">
+                        <h2><a href="x">每日特价</a></h2>
+                    </div>
+                    <div class="tejia-hd02">
+                        <ul>
+                            <li><a href="x">精选</a></li>
+                            <li><a href="x">美食</a></li>
+                            <li><a href="x">百货</a></li>
+                            <li><a href="x">个护</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tejia-bd">
+                    <div class="tejiacol01">
+                        <a href="x">
+                            <img src="upload/tejia02.png">
+                        </a>
+                    </div>
+                    <div class="tejiacol02">
+                        <a href="x">
+                            <img src="upload/tejia01.png">
+                        </a>
+                        <a href="x">
+                            <img src="upload/tejia01.png">
+                        </a>
+                    </div>
+                    <div class="tejiacol02">
+                        <a href="x">
+                            <img src="upload/tejia01.png">
+                        </a>
+                        <a href="x">
+                            <img src="upload/tejia01.png">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="tejia-hd">
+                    <div class="tejia-hd01">
+                        <h2><a href="x">品牌闪购</a></h2>
+                    </div>
+                    <div class="tejia-hd02">
+                        <ul>
+                            <li><a href="x">精选</a></li>
+                            <li><a href="x">美食</a></li>
+                            <li><a href="x">百货</a></li>
+                            <li><a href="x">个护</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tejia-bd">
+                    <div class="tejiacol01">
+                        <a href="x">
+                            <img src="upload/tejia02.png">
+                        </a>
+                    </div>
+                    <div class="tejiacol02">
+                        <a href="x">
+                            <img src="upload/tejia01.png">
+                        </a>
+                        <a href="x">
+                            <img src="upload/tejia01.png">
+                        </a>
+                    </div>
+                    <div class="tejiacol02">
+                        <a href="x">
+                            <img src="upload/tejia01.png">
+                        </a>
+                        <a href="x">
+                            <img src="upload/tejia01.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer clearfix">
+        <div class="w">
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+
+                            <h4>正品保证</h4>
+                            <p>正品保证,提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+
+                            <h4>正品保证</h4>
+                            <p>正品保证,提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+
+                            <h4>正品保证</h4>
+                            <p>正品保证,提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+
+                            <h4>正品保证</h4>
+                            <p>正品保证,提供发票</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mod_help">
+                <dl>
+                    <dt>服务指南</dt>
+                    <dd> <a href="#">购物流程 </a></dd>
+                    <dd> <a href="#">会员介绍 </a></dd>
+                    <dd> <a href="#">生活旅行/团购 </a></dd>
+                    <dd> <a href="#">常见问题 </a></dd>
+                    <dd> <a href="#">大家电 </a></dd>
+                    <dd> <a href="#">联系客服 </a></dd>
+                </dl>
+                <dl>
+                    <dt>服务指南</dt>
+                    <dd> <a href="#">购物流程 </a></dd>
+                    <dd> <a href="#">会员介绍 </a></dd>
+                    <dd> <a href="#">生活旅行/团购 </a></dd>
+                    <dd> <a href="#">常见问题 </a></dd>
+                    <dd> <a href="#">大家电 </a></dd>
+                    <dd> <a href="#">联系客服 </a></dd>
+                </dl>
+                <dl>
+                    <dt>服务指南</dt>
+                    <dd> <a href="#">购物流程 </a></dd>
+                    <dd> <a href="#">会员介绍 </a></dd>
+                    <dd> <a href="#">生活旅行/团购 </a></dd>
+                    <dd> <a href="#">常见问题 </a></dd>
+                    <dd> <a href="#">大家电 </a></dd>
+                    <dd> <a href="#">联系客服 </a></dd>
+                </dl>
+                <dl>
+                    <dt>服务指南</dt>
+                    <dd> <a href="#">购物流程 </a></dd>
+                    <dd> <a href="#">会员介绍 </a></dd>
+                    <dd> <a href="#">生活旅行/团购 </a></dd>
+                    <dd> <a href="#">常见问题 </a></dd>
+                    <dd> <a href="#">大家电 </a></dd>
+                    <dd> <a href="#">联系客服 </a></dd>
+                </dl>
+                <dl>
+                    <dt>服务指南</dt>
+                    <dd> <a href="#">购物流程 </a></dd>
+                    <dd> <a href="#">会员介绍 </a></dd>
+                    <dd> <a href="#">生活旅行/团购 </a></dd>
+                    <dd> <a href="#">常见问题 </a></dd>
+                    <dd> <a href="#">大家电 </a></dd>
+                    <dd> <a href="#">联系客服 </a></dd>
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd> <img src="images/qr.png" style="width: 90px;">
+                        品优购客户端</dd>
+
+                </dl>
+            </div>
+            <div class="mod_copyright">
+                <p class="links">
+                    <a href="">关于我们</a> | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 | 品优购公益 | English
+                    Site
+                    | Contact U
+                </p>
+                <p class="copyright">
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+                    京ICP备08001421号京公网安备110108007702
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
